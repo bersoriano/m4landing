@@ -30,10 +30,7 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
+              "Partnering with M4 transformed my practice! 🚀 Increased online visibility, patient engagement, and a seamless website—all while staying HIPAA-compliant. Highly recommend for healthcare professionals! ⭐️⭐️⭐️⭐️⭐️ 
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Mary Sullivan</span>{" "}
