@@ -33,6 +33,9 @@ export default function Cta() {
             <h2 className="mb-6 text-3xl font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
             ¿Estás listo para llevar tu clínica al siguiente nivel?
             </h2>
+            <h5 className="mb-6 font-bold text-gray-200 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-xl">
+              ¡Te acompáñanos a navegar y destacar en el mundo digital!
+            </h5>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
                 className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"

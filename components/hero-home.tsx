@@ -31,8 +31,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Impulsa tu clínica con M4<br className="max-lg:hidden" />
-              Tu Socio en Éxito Digital
+              Impulsa tu clínica con 
+              <br/>M4 Tu Socio en Éxito Digital
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
