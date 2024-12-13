@@ -8,7 +8,7 @@ import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function FeaturesPlanet() {
   return (
-    <section className="relative before:absolute before:inset-0 before:-z-20" style={{ backgroundColor: '#63bdd5' }}>
+    <section className="relative before:absolute before:inset-0 before:-z-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
@@ -85,10 +85,26 @@ export default function FeaturesPlanet() {
                 <span>Asesoría en Marketing Médico</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Nuestra experiencia en marketing digital para clínicas médicas te proporcionará las mejores herramientas para destacar en el entorno digital.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                  <span className="font-semibold">Diagnóstico inicial: </span>
+                  Identificamos oportunidades y áreas de mejora en tu clínica.
+                </li>
+                <li>
+                  <span className="font-semibold">Estrategia personalizada: </span>
+                  Elaboramos un plan digital adaptado a tus necesidades y objetivos.
+                </li>
+                <li>
+                  <span className="font-semibold">Soporte continuo: </span>
+                  Ajustamos y optimizamos las campañas según la evolución de tus metas.
+                </li>
+                <li>
+                  <span className="font-semibold">Resultados tangibles: </span>
+                  Medimos el progreso y optimizamos continuamente nuestras estrategias para maximizar tu retorno de inversión.
+                </li>
+              </ul>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium">
@@ -103,10 +119,22 @@ export default function FeaturesPlanet() {
                 <span>Optimización Continua del Sitio Web</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Realizamos un monitoreo constante para mejorar el rendimiento de tu sitio web, asegurando que captes y mantengas la atención de tus visitantes.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                  <span className="font-semibold">Monitoreo en tiempo real: </span>
+                  Analizamos el comportamiento de los usuarios en tu página web.
+                </li>
+                <li>
+                  <span className="font-semibold">Insights detallados: </span>
+                  Te brindamos datos clave sobre el tráfico y la interacción de tus visitantes.
+                </li>
+                <li>
+                  <span className="font-semibold">Mejora constante: </span>
+                  Adaptamos las estrategias en función de los análisis para maximizar la conversión.
+                </li>
+              </ul>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium">
@@ -125,10 +153,22 @@ export default function FeaturesPlanet() {
                 <span>Gestión de Redes Sociales</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+                Fortalecemos la presencia online de tu clínica a través de estrategias efectivas en redes sociales.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                <span className="font-semibold">Creación de contenido relevante: </span>
+                Desarrollamos publicaciones atractivas para conectar con tu audiencia.
+                </li>
+                <li>
+                <span className="font-semibold">Gestión activa: </span>
+                Administramos y optimizamos tus perfiles para mejorar tu visibilidad.
+                </li>
+                <li>
+                <span className="font-semibold">Interacción y comunidad: </span>
+                Nos encargamos de interactuar con tus seguidores, generando un vínculo más fuerte con tu marca.
+                </li>
+              </ul>
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium">
@@ -143,10 +183,22 @@ export default function FeaturesPlanet() {
                 <span>Campañas en Google Ads</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Maximizamos tu visibilidad con campañas publicitarias estratégicas en Google.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                <span className="font-semibold">Campañas dirigidas: </span>
+                Diseñamos anuncios efectivos enfocados en captar a tu público objetivo.
+                </li>
+                <li>
+                <span className="font-semibold">Optimización constante: </span>
+                Ajustamos las campañas para asegurar un rendimiento óptimo.
+                </li>
+                <li>
+                <span className="font-semibold">Resultados medibles: </span>
+                Te proporcionamos informes detallados sobre el impacto de las campañas.
+                </li>
+              </ul>              
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium">
@@ -161,10 +213,22 @@ export default function FeaturesPlanet() {
                 <span>Desarrollo de Marca para Clínicas</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Creamos una identidad de marca sólida que refleje los valores y la visión de tu clínica.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                <span className="font-semibold">Identidad diferenciada: </span>
+                Diseñamos una imagen de marca que te distinga en el mercado médico.
+                </li>
+                <li>
+                <span className="font-semibold">Estrategia coherente: </span>
+                Implementamos un plan integral para fortalecer tu reputación.
+                </li>
+                <li>
+                <span className="font-semibold">Mayor visibilidad: </span>
+                Aplicamos tácticas que refuerzan el reconocimiento y la percepción de tu clínica.
+                </li>
+              </ul>              
             </article>
             <article>
               <h3 className="mb-2 flex items-center space-x-2 font-medium">
@@ -179,10 +243,22 @@ export default function FeaturesPlanet() {
                 <span>Producción Audiovisual de Alta Calidad</span>
               </h3>
               <p className="text-[15px]">
-                Collect essential insights about how visitors are using your
-                site with in-depth page view metrics like pages, referring
-                sites, and more.
+              Desarrollamos contenido audiovisual que resalta la experiencia de tu clínica, impactando a tus pacientes potenciales.
               </p>
+              <ul className="mt-4 space-y-3 text-sm">
+                <li>
+                <span className="font-semibold">Contenido atractivo: </span>
+                Creamos videos y materiales visuales que captan la atención.
+                </li>
+                <li>
+                <span className="font-semibold">Producción profesional: </span>
+                Nos aseguramos de que cada proyecto cumpla con los más altos estándares de calidad.
+                </li>
+                <li>
+                <span className="font-semibold">Distribución estratégica: </span>
+                Optimizamos el contenido para alcanzar el mayor impacto y engagement.
+                </li>
+              </ul>              
             </article>
           </div>
         </div>
