@@ -1,7 +1,8 @@
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
 import Avatar01 from "@/public/images/m4logo.png";
-import DigitalDoctor from "@/public/images/digital-healthcare-professional-stockcake.jpg";
+import DigitalDoctor from "@/public/images/digital-healthcare-professional-stockcake10.jpg";
+import DigitalDoctor2 from "@/public/images/digital-healthcare-professional-stockcakex.jpg";
 
 export default function HeroHome() {
   return (
@@ -87,7 +88,14 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={300}>
               En MCUATRO, somos especialistas en marketing digital para el sector salud, y estamos aquí para asegurarnos de que tu práctica médica ocupe el lugar número uno. No dejes que la competencia te opaque, ¡actúa ahora y asegura tu posición entre los mejores!
-            </p>                                
+            </p>
+            <div className="relative inline-flex">
+                <Image
+                  className=""
+                  src={DigitalDoctor2}
+                  alt="Doctor performing surgery while the procedure gets recorded"
+                />
+              </div>                                            
           </div>          
         </div>
       </div>
