@@ -7,7 +7,7 @@ export default function HeroHome() {
   return (
     <section className="relative">
       <PageIllustration />
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto">
         {/* Hero content */}
         <div className="pb-12 pt-12 md:pb-10 md:pt-10">
           {/* Section header */}
