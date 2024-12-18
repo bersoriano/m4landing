@@ -10,21 +10,21 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto">
         {/* Hero content */}
-        <div className="pb-12 pt-12 md:pb-10 md:pt-10">
+        <div className="pb-12 pt-12 md:pt-10">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-16">
+          <div className="pb-12 text-center md:pb-6">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
-              <div className="-mx-0.5 flex justify-center -space-x-3">
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Avatar01}
-                  width={152}
-                  height={152}
-                  alt="Avatar 01"
-                />
+              <div className="flex justify-center -space-x-3">
+              <Image
+                className="box-content rounded-full border-2 border-gray-50"
+                src={Avatar01}
+                width={152}
+                height={152}
+                alt="Avatar 01"
+              />
               </div>
             </div>
             <h1
@@ -71,32 +71,31 @@ export default function HeroHome() {
             </div>
           </div>
           {/* Hero image */}
-          <div className="pb-16 md:pb-20">
-            <div className="text-center">
-              <div className="relative inline-flex">
-                <Image
-                  className=""
-                  src={DigitalDoctor}
-                  alt="Planet"
-                />
-              </div>
-            </div>
+          <div className="mx-auto relative overflow-hidden" style={{ height: '600px' }}>
+            <Image
+            src={DigitalDoctor}
+            alt="Doctor performing a medical procedure"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-50"></div>
+            <p className="absolute bottom-24 w-full text-white text-5xl font-bold p-6 text-center">
+            Producción audiovisual médica
+            </p>
           </div>
           <div className="mx-auto max-w-3xl">
+            <h2 className="mb-6 text-3xl font-bold text-center pt-10">Mejora tu prescencia en internet</h2>
             <p
               className="mb-8 text-lg text-gray-900"
               data-aos="zoom-y-out"
               data-aos-delay={300}>
               En MCUATRO, somos especialistas en marketing digital para el sector salud, y estamos aquí para asegurarnos de que tu práctica médica ocupe el lugar número uno. No dejes que la competencia te opaque, ¡actúa ahora y asegura tu posición entre los mejores!
-            </p>
-            <div className="relative inline-flex">
-                <Image
-                  className=""
-                  src={DigitalDoctor2}
-                  alt="Doctor performing surgery while the procedure gets recorded"
-                />
-              </div>                                            
-          </div>          
+            </p>                                         
+          </div>
+          <div className="mx-auto max-w-3xl">
+            <Image
+            src={DigitalDoctor2}
+            alt="Doctor performing surgery while the procedure gets recorded"
+            />
+          </div>
         </div>
       </div>
     </section>
