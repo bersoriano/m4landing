@@ -10,9 +10,9 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto">
         {/* Hero content */}
-        <div className="pb-12 pt-12 md:pt-10">
+        <div className="pt-12 md:pt-10">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-6">
+          <div className="pb-4 text-center md:pb-3">
             <div
               className="mb-6 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
               data-aos="zoom-y-out"
@@ -81,21 +81,29 @@ export default function HeroHome() {
             Producción audiovisual médica
             </p>
           </div>
-          <div className="mx-auto max-w-3xl">
-            <h2 className="mb-6 text-3xl font-bold text-center pt-10">Mejora tu prescencia en internet</h2>
-            <p
-              className="mb-8 text-lg text-gray-900"
-              data-aos="zoom-y-out"
-              data-aos-delay={300}>
-              En MCUATRO, somos especialistas en marketing digital para el sector salud, y estamos aquí para asegurarnos de que tu práctica médica ocupe el lugar número uno. No dejes que la competencia te opaque, ¡actúa ahora y asegura tu posición entre los mejores!
-            </p>                                         
+          <div className="flex w-full">
+            <div className="w-1/2">
+              <div className="p-6">
+              <Image
+                className="p-8"
+                src={DigitalDoctor2}
+                alt="Doctor performing surgery while the procedure gets recorded"
+              />
+              </div>
+            </div>
+            <div className="w-1/2">
+              <div className="p-6 flex flex-col justify-center h-full">
+                <h2 className="mb-6 text-3xl font-bold text-center">Mejora tu prescencia en internet</h2>
+                <p
+                  className="mb-8 text-lg text-gray-900"
+                  data-aos="zoom-y-out"
+                  data-aos-delay={300}>
+                  En MCUATRO, somos especialistas en marketing digital para el sector salud, y estamos aquí para asegurarnos de que tu práctica médica ocupe el lugar número uno. No dejes que la competencia te opaque, ¡actúa ahora y asegura tu posición entre los mejores!
+                </p> 
+              </div>
+            </div>
           </div>
-          <div className="mx-auto max-w-3xl">
-            <Image
-            src={DigitalDoctor2}
-            alt="Doctor performing surgery while the procedure gets recorded"
-            />
-          </div>
+
         </div>
       </div>
     </section>

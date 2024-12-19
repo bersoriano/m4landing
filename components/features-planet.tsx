@@ -6,29 +6,46 @@ import PlanetTagImg02 from "@/public/images/planet-tag-02.png";
 import PlanetTagImg03 from "@/public/images/planet-tag-03.png";
 import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 import DeskWithAnalytics from "@/public/images/deskwanalytics.jpeg";
+import DoctorWCam from "@/public/images/drwithcamera.jpeg"
 
 export default function FeaturesPlanet() {
   return (
     <section className="relative before:absolute before:inset-0 before:-z-20">
+
+          <div className="flex w-full">
+            <div className="w-1/2">
+              <div className="p-6 flex flex-col justify-center h-full">
+              <h2 className="mb-6 text-3xl font-bold text-center">Asesoría en Marketing Médico</h2>
+                <p className="mb-8 text-lg text-gray-900"
+                  data-aos="zoom-y-out"
+                  data-aos-delay={300}>En MCUATRO, diseñamos estrategias de marketing digital completamente adaptadas a las necesidades únicas de tu clínica.</p>
+                <ul className="mb-8 text-lg text-gray-900"
+                  data-aos="zoom-y-out"
+                  data-aos-delay={300}>
+                  <li>Análisis exhaustivo: Estudiamos a fondo tu clínica y el mercado para desarrollar un plan preciso y efectivo.
+                  </li>
+                  <li>Estrategia a medida: Creamos un plan de marketing digital alineado a tus objetivos específicos.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="w-1/2">
+              <div className="p-6 flex flex-col justify-center h-full">
+                <Image
+                  className="p-8"
+                  src={DoctorWCam}
+                  alt="Doctor performing surgery while the procedure gets recorded"
+                />
+              </div>
+            </div>
+          </div>      
+
       <div className="py-5">
         {/* Section header */}
         <div className="mx-auto max-w-3xl pb-5 text-center md:pb-5">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            Asesoría Especializada en Marketing Médico
-          </h2>
+
         </div>
-        <div className="mx-auto max-w-3xl pb-16 md:pb-20">
-          <p className="pb-4">En MCUATRO, diseñamos estrategias de marketing digital completamente adaptadas a las necesidades únicas de tu clínica.</p>
-          <ul>
-            <li>Análisis exhaustivo: Estudiamos a fondo tu clínica y el mercado para desarrollar un plan preciso y efectivo.
-            </li>
-            <li>Estrategia a medida: Creamos un plan de marketing digital alineado a tus objetivos específicos.
-            </li>
-            <li>Gestión continua: Un gestor dedicado te acompaña en cada etapa, brindando asesoría y soporte personalizado.</li>
-            <li>Resultados claros: Te ofrecemos informes detallados y ajustamos las estrategias según tu retroalimentación.
-            </li>
-          </ul>
-        </div>
+
         {/* Full-width Image */}
         <div className="pb-16 md:pb-20 relative overflow-hidden">
           <Image
